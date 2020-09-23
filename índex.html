@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+     Roberto Vieira Rezende
+    </title>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" 
+          rel="stylesheet">
+    <style>
+      * { /* Este seletor "*" alcança todos os elementos existentes no html */
+        margin: 0; /* Zeramos a margem */
+        padding: 0; /* Zeramos o padding */
+        border: 0; /* Zeramos o border */
+      } /* Com isto acima, ressetamos estas propriedades */
+      body {
+        background: #282a36; /* Cor de fundo */
+        font-family: 'Source Sans Pro', sans-serif; /* Definimos o tipo de fonte */
+      }
+      header {
+        padding: 32px; /* Superfície ligada diretamente ao conteúdo 
+                          (top/left/bottom/right) */
+        border-bottom: 1px solid #333; /* Cor da borda inferior */
+        background: rgba(0, 0, 0, 0.1); /* Red-green-blue-alpha-opacity
+        o alpha-opacity define a opacidade em uma faixa de valores decimais 
+        de 0 até 1. Opacidade especifica a transparência de um elemento */ 
+      }
+      header div {
+        text-align: center; /* Alinhamos o texto contido na div ao centro */
+      }
+      header div a {
+        color: white; /* Cor branca para o texto contido na tag a */
+        font-size: 18px; /* Definimos um tamanho de 18 pixels para a fonte */
+        line-height: 28px; /* Define a altura do texto. Recomenda-se atribuir */
+                           /* uma quantidade de 10 pixels a mais daquela */
+                           /* atribuída ao tamanho da fonte.*/
+        margin: 0 16px;    /* Margem 0 na parte superior e inferior, e 16 nas */ 
+                           /* laterais */ 
+        text-decoration: none; /* Eliminamos o sublinhado da tag a (link) */
+      }
+      header div a:hover {
+        color: #50fa7b; /* Definimos uma cor verde para o menu quando movemos 
+                             o mouse sobre ele */
+        transition: color 200ms; /* Tempo da transição para a mudança de cor */
+      }                                                       
+    </style>               
+  </head>
+
+  <body>
+    <header>
+      <div>
+        <a href="/">Sobre</a>
+        <a href="/">Aulas</a>
+      </div>
+    </header>
+
+    <div id="wrapper">
+      <img src="robertofoto.png"
+      alt="Roberto Rezende">
+    </div>
+  </body>
+</html>
